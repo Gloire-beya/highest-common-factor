@@ -15,7 +15,7 @@ public class HCF {
     public static int highestCommonFactor(int[] numbers) {
         // Check for null or empty array
         if (numbers == null || numbers.length < 2) {
-            throw new IllegalArgumentException("Input array must contain at least 2 elements");
+            throw new IllegalArgumentException("Input array must is required not to be Null or must contain at least 2 elements");
         }
 
         // Initialize HCF with the first element of the array
